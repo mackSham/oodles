@@ -1,17 +1,70 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+<<<<<<< HEAD
 contactus {
   background:"../../public/backgrounds/Rectangle13.png";
 }
+=======
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.7);
+  text-decoration: underline;
+}
+
+.bg-light {
+  background-color: #f8f9fa!important;
+  border-radius: 20px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+.backgroundClass{
+  background-image: url('./resources/images/backgrounds/header.png');
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+}
+
+.bitCoin3DLogo2{
+  margin-left:-40px;
+  width:90px;
+  z-index: -100;
+}
+
+.bitCoin3DLogo1{
+  margin-left:40px;
+  z-index:100;
+}
+
+.trendBackground{
+  background-image: url('./resources/images/backgrounds/trendBackground.png');
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+}
+
+.slideImage{
+  width: 90%;
+}
+
+.relativeCenter{
+  position: relative;
+  top:-50%;
+}
+>>>>>>> 6ef324355dde79548028723078c5c849e066fb50
