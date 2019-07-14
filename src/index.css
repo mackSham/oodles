@@ -9,11 +9,6 @@ code {
     monospace;
 }
 
-<<<<<<< HEAD
-contactus {
-  background:"../../public/backgrounds/Rectangle13.png";
-}
-=======
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(0,0,0,.7);
   text-decoration: underline;
@@ -67,4 +62,14 @@ contactus {
   position: relative;
   top:-50%;
 }
->>>>>>> 6ef324355dde79548028723078c5c849e066fb50
+
+.contactusBackground{
+  background-image: url('./resources/images/backgrounds/Rectangle13.png');
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+}
+
+#contactus {
+  padding-top: 0px;
+}

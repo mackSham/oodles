@@ -5,6 +5,8 @@ import HeaderBox from './components/header-box';
 import ServiceBox from './components/service-box'
 import './App.css';
 import TrendBox from './components/trend-box';
+import Contactus from './components/contactus-box';
+import Footer from './layouts/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <HeaderBox />
       <ServiceBox />
       <TrendBox />
+      <Contactus />
+      <Footer />
     </React.Fragment>
   );
 }
